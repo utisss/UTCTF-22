@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		{% block head %}
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<title>Fake Corp</title>
+		{% endblock %}
+	</head>
+	<body>
+		{% block content_controller %}
+		<div class="content">
+		{% endblock %}
+			{% block content %}{% endblock %}
+		</div>
+		<div id="footer">
+			{% block footer %}
+			<a href="/internal/login">Employee login</a>
+			{% endblock %}
+		</div>
+	</body>
+</html>

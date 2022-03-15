@@ -1,0 +1,7 @@
+name: "Discord Rules"
+category: Misc
+description: Join the UTCTF discord and agree to the rules at http://isss.io/utctfdiscord
+author: nobody
+value: 20
+type: standard
+state: hidden

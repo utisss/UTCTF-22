@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="topbox">
+	<h1>{{ desc }}</h1>
+	<span class="error"></span>
+	<form method="post">
+		<input name="username" type="text" placeholder="Username" required> 
+		<!-- what is this garbage, you ask? Well, most of our pins are now 16 digits, but we still have some old 3-digit pins left because tom is a moron and can't remember jack -->
+		<input name="password" type="password" placeholder="PIN" required pattern="(\d{3}|\d{16})">
+		<input type="submit">
+	</form>
+	<script src="/static/login.js"></script>
+</div>
+{% endblock %}

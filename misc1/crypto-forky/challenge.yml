@@ -1,0 +1,19 @@
+name: "Forky"
+category: Cryptography
+description: I like forks.
+
+
+  By Soham Roy (@Sohamster on discord)
+author: Soham Roy
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc misc1.utctf.live 9992
+flags:
+  - utflag{d3term1nistiC_rAnd0mn3Ss}
+files:
+  - app.c
+state: hidden

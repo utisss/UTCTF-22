@@ -1,0 +1,21 @@
+name: "Login as Admin Pt 2"
+category: Beginner
+description: The boys back at HQ need you again! The Web D-EVIL-opers have changed their login page a bit, but we suspect the admin username and password are STILL set to `admin`. We're having trouble submitting the credentials, though. Can you help us out?
+
+
+  _FYI, you do *not* need to do the `Login as Admin` sequence in order, and later parts are not necessarily harder than earlier ones._
+
+  By Aya Abdelgawad (@Aya the Awesome on discord)
+author: Aya Abdelgawad
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://web1.utctf.live:2362
+flags:
+  - utflag{*re@lly*gott@_upd8_th@t_pwd}
+files:
+  - app.py
+state: hidden

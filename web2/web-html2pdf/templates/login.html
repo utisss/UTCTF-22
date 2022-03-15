@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Admin Portal</title>
+  </head>
+  <body>
+    <div>
+      <h1>Administrator Management Portal</h1>
+      <p>Login to view super secret admin stuff.</p>
+      <form method="POST">
+        <label for="username">Username:</label>
+        <input type="text" name="username"><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password"><br />
+        <button type="submit">Login</button>
+      </form>
+      {% if msg %}
+      <p style="color:red"><b>{{ msg|safe }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>

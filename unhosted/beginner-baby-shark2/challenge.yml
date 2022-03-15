@@ -1,0 +1,19 @@
+name: "Baby Shark 2"
+author: "Rob H"
+category: Beginner
+description: |
+  "I was able to capture some ftp traffic in this pcap. I wonder if there is any good info here."
+
+
+  By Robert Hill (@Rob H on discord)
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{sharkbait_hoo_ha_ha}
+files:
+  - baby_shark2.pcap
+state: hidden

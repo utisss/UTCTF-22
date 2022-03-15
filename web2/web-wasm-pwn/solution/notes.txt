@@ -1,0 +1,4 @@
+offset of fmt str -- 5242966
+offset of out -- 2242864
+need to write 3000102 filler bytes
+need >750025 pixels

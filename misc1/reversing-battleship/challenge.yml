@@ -1,0 +1,17 @@
+name: "Cheating Battleship"
+category: Reversing
+description: Can you sink all the server's ships? Me thinks no :P
+
+
+  By Soham Roy and Aya Abdelgawad (@Sohamster and @Aya the Awesome on discord)
+author: Soham Roy
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://misc1.utctf.live:9998
+flags:
+  - utflag{if_u_want_it_done_right_dont_rely_on_client}
+state: hidden

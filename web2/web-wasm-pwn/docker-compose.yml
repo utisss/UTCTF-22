@@ -1,0 +1,17 @@
+version: "2.2"
+
+services:
+    web:
+        cpus: 1
+        mem_limit: 2048m
+        build: ./server
+        
+        deploy:
+            resources:
+                limits:
+                    cpus: '1'
+                    memory: 1G
+        ports:
+            - 5006:5006
+        env_file:
+            - ./.env

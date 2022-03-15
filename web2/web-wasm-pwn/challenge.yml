@@ -1,0 +1,19 @@
+name: "Sigma"
+category: Web
+description: Our new image processing tool runs completely in your browser! Right now we only support one image effect and image format though. 
+
+
+  By ggu (@ggu on discord)
+author: ggu
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://web2.utctf.live:5006
+files:
+  - server.zip
+flags:
+  - utflag{wow_much_wasm_very_stack_cookie_q08XjaiPJp}
+state: hidden

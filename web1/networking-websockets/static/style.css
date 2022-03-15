@@ -1,0 +1,64 @@
+body {
+	margin: 0;
+}
+.content {
+	padding: 5em;
+	height: calc(100vh - 10em);
+}
+h1.fancy {
+	font-size: 3em;
+}
+.fancy {
+	color: white;
+	display: block;
+	font-weight: bold;
+	font-size: 2em;
+	margin: 1em;
+}
+.backdrop {
+  background: url("/static/pexels-picjumbocom-461077.jpg") center/cover;
+}
+.topbox {
+  width: 40vw;
+  background: lightgray;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10vh;
+	text-align: center;
+}
+.topbox > form > input {
+  display: block;
+  width: 100%;
+  margin: 5px;
+}
+.topbox > * {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+#footer {
+	text-align: center;
+	margin: 1em;
+}
+.error {
+	color: red;
+	margin-left: 0;
+	transform: none;
+}
+textarea {
+  display: block;
+  width: 80%;
+  height: 35vh;
+}
+
+a.button {
+  text-decoration: none;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 0.5em;
+  border-radius: 1em;
+  transition: background 0.5s, color 0.5s;
+}
+a.button:hover {
+  background: white;
+  color: black;
+}

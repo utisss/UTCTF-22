@@ -1,0 +1,17 @@
+name: "Websockets?"
+category: Web
+description: |
+  Can you hack my website?
+
+  By Daniel Parks (@danielp on discord)
+author: Daniel Parks
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://web1.utctf.live:8651
+flags:
+  - utflag{w3bsock3ts}
+state: hidden

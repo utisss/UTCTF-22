@@ -1,0 +1,11 @@
+version: "2.2"
+services:
+  pwn-aeg2:
+    mem_limit: 512m
+    cpus: 0.25
+    build:
+      context: .
+      args: 
+        USER: "aeg2"
+    ports:
+      - "5002:9000"

@@ -1,0 +1,20 @@
+name: "Baby Shark"
+author: "Rob H"
+category: Beginner
+description: |
+  "I think someone downloaded something from an http site. Luckily I caught the traffic. I'm super curious about what it was. Let's go hunt! (doo, doo, doo, doo, doo, doo)"
+
+
+  By Robert Hill (@Rob H on discord)
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc
+flags:
+  - utflag{eye_c_what_u_c}
+files:
+  - baby_shark1.pcap
+state: hidden

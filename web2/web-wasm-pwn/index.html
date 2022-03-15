@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Drawing App</title>
+    </head>
+    <body>
+        <h1>Free Image Editor!</h1>
+        <p>//TODO: Add other image effects besides invert</p>
+        <input id="file_picker" type="file">
+        <button onclick="handle_draw_click()">Invert</button>
+        <br>
+        <canvas id="display-canvas" width="800" height="600"></canvas>
+
+        <form style="display:none" id="hidden-form" method="post" action="/">
+            <input type="hidden" name="image" id="image-data">
+        </form>
+
+        <script src="a.out.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>

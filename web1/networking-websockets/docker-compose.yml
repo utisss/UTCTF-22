@@ -1,0 +1,14 @@
+version: "2.2"
+services:
+  web-inpickle:
+    cpus: .25
+    mem_limit: 1024m
+    build:
+      context: .
+    deploy:
+      replicas: 1
+    environment:
+      - FLAG=utflag{w3bsock3ts}
+      - SECRET=U2KY9TOT5mAMCbGkGsl3TfLzM1Nx6/rRor81KKmUpp9JEghSlTxPSSStpRmI20B+8aKmizfE6WWI8Z+yiPFo9A==
+    ports:
+      - "8651:8000"

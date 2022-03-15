@@ -1,0 +1,12 @@
+name: "Don't Solve This"
+category: Misc
+description: Do not solve this challenge
+author: nobody
+value: -1000
+type: standard
+flags:
+  - {
+    type: "regex",
+    content: ".*"
+  }
+state: hidden

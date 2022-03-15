@@ -1,0 +1,15 @@
+name: "ReReCaptcha"
+category: Web
+description: Just solve 1000 captchas. It's super easy.
+
+  By ggu (@ggu on discord)
+author: ggu
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://web1.utctf.live:7132
+flags:
+  - utflag{skibidi_bop_mm_dada_uLG7Jrd5hP}

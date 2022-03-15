@@ -1,0 +1,13 @@
+version: "2.2"
+services:
+  crypto-forky:
+    cpus: .4
+    mem_limit: 819m
+    build:
+      context: .
+    read_only: true
+    environment:
+      - FLAG=utflag{d3term1nistiC_rAnd0mn3Ss}
+    restart: "always"
+    ports:
+      - "9992:3000"

@@ -1,0 +1,10 @@
+version: "2.2"
+
+services:
+  networking-malformed-query:
+    cpus: .4
+    mem_limit: 819m
+    build: .
+    ports:
+      - "9855:53/udp"
+    read_only: true

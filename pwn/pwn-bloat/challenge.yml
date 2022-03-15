@@ -1,0 +1,28 @@
+name: "Bloat"
+category: Binary Exploitation
+description: I've created a new binary format. Unlike ELF, it has no bloat. 
+  It just consists of a virtual address to store the data at, then 248 bytes of data. 
+  However, when I tried to contribute it back to the mainline kernel they all 
+  called my submission \"idiotic\", and \"wildly unsafe\". They just cant recognize the next 
+  generation of Linux binaries.
+
+
+  Login with username `bloat` and no password
+
+
+  By Tristan (@trab on discord)
+author: Tristan
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc pwn.utctf.live 5003
+flags:
+  - utflag{oops_forgot_to_use_put_user283558318}
+files:
+  - src/bzImage
+  - src/rootfs.cpio.gz
+  - src/run.sh
+state: hidden

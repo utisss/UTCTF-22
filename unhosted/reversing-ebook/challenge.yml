@@ -1,0 +1,22 @@
+name: Ebook DRM
+category: Reversing
+description: |
+  I know I have the flag somewhere in this book, but it's over a million lines long and the awful DRM won't let me read the file fast enough to find it remotely soon. Maybe you can help?
+
+  I spent way too long writing this problem...
+
+  [haystack.slowreader](https://utexas.box.com/s/23kqj1bd1u8av54m79l3memiwiogbtsi)
+
+  By Daniel Parks (@danielp on discord)
+author: Daniel Parks
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{ghidra_isnt_always_the_answer}
+files:
+  - src/slowreader
+state: hidden

@@ -1,0 +1,21 @@
+name: "Sunset"
+category: Cryptography
+description: 
+  subset sumset what did i do
+    
+  Wrap the value of key with utflag{} for the flag.
+  By oops (@oops on discord)
+author: oops
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info:
+flags:
+  - utflag{3f3ae3284970df318be8404747bb003fe47cd9bdbb57fc1da52a01b3c028180f}
+files:
+  - "main.py"
+  - "output.txt"
+state: hidden

@@ -1,0 +1,48 @@
+[package]
+name = "battleship"
+version = "0.1.0"
+authors = ["Soham Roy <sohamroy@sohamroy.me>", "Aya Abdelgawad"]
+edition = "2021"
+rust-version = "1.56.0"
+description = "Battleship server"
+# documentation = ""
+readme = "README.md"
+# homepage = ""
+# repository = ""
+license = "MIT"
+# license-file = ""
+keywords = ["battleship"]
+categories = []
+# workspace = ""
+build = "build.rs"
+# links = ""
+# exclude = []
+# include = []
+publish = false
+# default-run = ""
+# autobins = true
+# autoexamples = true
+# autotests = true
+# autobenches = true
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+lto = true
+
+[build-dependencies]
+prost-build = "0.9"
+
+[dependencies]
+serde = { version = "1", default-features = false, features = ["derive"] }
+reqwest = { version = "0.11", default-features = false, features = ["rustls-tls-native-roots", "json"] }
+url = "2"
+rand = "0.8"
+env_logger = "0.9"
+tokio-tungstenite = "0.17"
+tungstenite = "0.17"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "macros", "time"] }
+prost = "0.9"
+log = "0.4"
+futures-util = "0.3"

@@ -1,0 +1,15 @@
+version: "2.2"
+
+services: 
+    conventions:
+        cpus: 1
+        mem_limit: 2048m
+        tty: true
+        networks:
+        - default
+        read_only: true
+        ports:
+        - 8622:22/tcp
+        build:
+            context: .
+            dockerfile: Dockerfile

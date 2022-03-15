@@ -1,0 +1,23 @@
+name: IRC
+category: Forensics
+description: |
+  Steal my irc password.
+
+  > Note: the password is the flag, but it is _not_ in utflag format (that would make it too easy). Do not guess; the correct solution finds the password with certainty. If you believe you have the correct password, but CTFd still marks it as wrong, DM me rather than using all your attempts.
+
+  I spent way too long solving this problem...
+
+  [memdump.lime.z](https://utexas.box.com/s/z2ljzoah8cp3alsp8p0uwh7hdvvz5wq3)
+
+  By Daniel Parks (@danielp on discord)
+author: Daniel Parks
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - 6cf35d047000d30d39e07b2361668ae8a408db184f24641670f5e2ee0872d86c
+state: hidden
+attempts: 3

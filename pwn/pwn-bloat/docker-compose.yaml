@@ -1,0 +1,12 @@
+version: "2.2"
+services:
+  pwn-bloat:
+    mem_limit: 1536m
+    cpus: 1
+    build:
+      context: .
+      args: 
+        FLAG: "utflag{oops_forgot_to_use_put_user283558318}"
+        USER: "bloat"
+    ports:
+      - "5003:9000"

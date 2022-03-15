@@ -1,0 +1,19 @@
+name: "Smol Overflow"
+category: Binary Exploitation
+description: You can have a little overflow, as a treat
+
+
+  By Tristan (@trab on discord)
+author: Tristan
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc pwn.utctf.live 5004
+flags:
+  - utflag{just_a_little_salami15983350}
+files:
+  - build/smol
+state: hidden

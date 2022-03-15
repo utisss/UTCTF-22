@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Are u a bot</title>
+  </head>
+  <body>
+    <div>
+      <h1>ReReCaptcha</h1>
+      <p>You have solved {{ count }} captchas in a row correctly!</p>
+      <img style="width: 500px" src="data:image/png;base64, {{challenge}}"><br>
+      <form method="post">
+        
+        <input type="text" name="solution" placeholder="solution">
+        <input type="submit">
+      </form>
+    </div>
+  </body>
+</html>

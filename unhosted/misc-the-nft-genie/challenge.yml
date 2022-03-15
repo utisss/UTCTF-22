@@ -1,0 +1,25 @@
+name: The Grumpy Genie
+category: Misc
+description: |
+
+  Someone wrote an nft collection for UT, though its quite a mess and theres all this talk about a genie and Silvio Micali being the real satoshi
+  
+  0x867D66C78235CD6c989FbFA34606FcfF637fB613
+  
+  https://pastebin.com/T7r9vFvg
+
+ 
+
+
+  By Theo (@Raoul Duke on discord)
+author: Theo
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{Did_Y0u_USe_Re3nTrancY?}
+state: hidden
+attempts: 3

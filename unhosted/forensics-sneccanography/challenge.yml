@@ -1,0 +1,22 @@
+name: "SnECCanography"
+category: Forensics
+description: 
+  I hid a secret message in this picture of my pet snECC, but I don't know what happened to it :((
+
+  Some of the pixels got corrupted... how do fix ?_?
+
+  By oops (@oops on discord)
+author: oops
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info:
+flags:
+  - utflag{3rr0r_c0rr3ct10n_4nd_sn3k_affect10n}
+files:
+  - encode.py
+  - snek2.png 
+state: hidden

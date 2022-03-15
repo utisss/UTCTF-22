@@ -1,0 +1,22 @@
+name: "Login as Admin Pt 3"
+category: Beginner
+description: Ok sorry but just *one* more time. HQ really needs your help. These Web D-EVIL-opers keep changing their site and preventing us from logging in. It seems the one thing they _won't_ change is their username and password \*rolls eyes\*. Can you figure out how to log in?
+
+
+  _FYI, you do *not* need to do the `Login as Admin` sequence in order, and later parts are not necessarily harder than earlier ones._
+
+
+  By Aya Abdelgawad (@Aya the Awesome on discord)
+author: Aya Abdelgawad
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://web1.utctf.live:2363
+files:
+  - app.py
+flags:
+  - utflag{omg_why_not_upd8_pwd!?!}
+state: hidden

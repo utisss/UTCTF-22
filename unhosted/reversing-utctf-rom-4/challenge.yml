@@ -1,0 +1,19 @@
+name: "UTCTF Adventure ROM 4"
+category: Reversing
+description: We went back in time to the late 80s and discovered this mysterious ROM. It seems to be intended to run on a certain Nintendo portable console. I wonder what lies beyond the goal?
+
+  Flag is in all caps.
+
+  By ggu (@ggu on discord)
+author: ggu
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+files:
+  - game.gb
+flags:
+  - UTFLAG{NXHDGZROUT}
+state: hidden

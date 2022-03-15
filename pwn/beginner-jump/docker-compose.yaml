@@ -1,0 +1,13 @@
+version: "2.2"
+services:
+  pwn-jump:
+    mem_limit: 512m
+    cpus: 0.25
+    build:
+      context: .
+      args: 
+        FLAG: "utflag{we_do_be_overflowing_those_stacks13318}"
+        USER: "jump"
+    ports:
+      - "5001:9000"
+    read_only: true

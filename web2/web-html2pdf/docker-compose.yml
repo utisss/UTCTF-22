@@ -1,0 +1,12 @@
+version: "2.2"
+services:
+  web-html2pdf:
+    cpus: 1
+    mem_limit: 2048m
+    build:
+      context: .
+      args:
+        FLAG: "utflag{b1g_r3d_t3am_m0v35_0ut_h3r3}"
+    ports:
+      - 9854:5000
+    read_only: false

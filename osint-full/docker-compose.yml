@@ -1,0 +1,9 @@
+
+version: "2"
+services:
+  osint-full:
+    mem_limit: 512m
+    cpus: 0.25
+    restart: always
+    build:
+      context: .

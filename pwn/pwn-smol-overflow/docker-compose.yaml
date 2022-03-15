@@ -1,0 +1,13 @@
+version: "2.2"
+services:
+  pwn-smol:
+    mem_limit: 512m
+    cpus: 0.25
+    build:
+      context: .
+      args: 
+        FLAG: "utflag{just_a_little_salami15983350}"
+        USER: "smol"
+    ports:
+      - "5004:9000"
+    read_only: true

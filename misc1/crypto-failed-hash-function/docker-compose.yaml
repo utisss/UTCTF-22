@@ -1,0 +1,12 @@
+version: "2.2"
+services:
+  crypto-failed-hash-function:
+    cpus: .4
+    mem_limit: 819m
+    build:
+      context: .
+      args: 
+      USER: "hash"
+    ports:
+      - "5000:9000"
+    read_only: true

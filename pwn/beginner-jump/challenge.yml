@@ -1,0 +1,19 @@
+name: "Jump around"
+category: Beginner
+description: Jump, jump, jump, jump around
+
+
+  By Tristan (@trab on discord)
+author: Tristan
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc pwn.utctf.live 5001
+flags:
+  - utflag{we_do_be_overflowing_those_stacks13318}
+files:
+  - build/jump
+state: hidden

@@ -1,0 +1,16 @@
+name: "Sounds Familiar"
+category: Forensics
+description: You have one new message. Main menu. To listen to your messages press 1.
+  By Aly (Prince_Ali#9152 on discord)
+author: Aly
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utctf{5ecret_f1@9_do_not_5h@re}
+files:
+  - super_strange.wav
+state: hidden

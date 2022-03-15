@@ -1,0 +1,13 @@
+version: "2.2"
+services:
+  osint-full22:
+    cpus: .4
+    mem_limit: 819m
+    build:
+      context: .
+    restart: always
+    deploy:
+      resources:
+        limits:
+          cpus: .1
+          memory: 150M

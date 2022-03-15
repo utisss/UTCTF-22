@@ -1,0 +1,12 @@
+version: "2.2"
+services:
+  web-captcha:
+    cpus: 1
+    mem_limit: 2048m
+    build:
+      context: .
+    ports:
+      - "7132:5000"
+    read_only: true
+    env_file:
+      - ./.env

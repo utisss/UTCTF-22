@@ -1,0 +1,17 @@
+name: "Automated Exploit Generation 2"
+category: Binary Exploitation
+description: Now with printf!
+
+
+  By Tristan (@trab on discord)
+author: Tristan
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc pwn.utctf.live 5002
+flags:
+  - utflag{you_mix_me_right_round_baby_right_round135799835}
+state: hidden

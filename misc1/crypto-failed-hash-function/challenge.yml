@@ -1,0 +1,24 @@
+name: "Failed Hash Function"
+category: Cryptography
+description: I made this keyed hash function for my final project, but I got a 0...
+
+    Apparently, there's too many collisions and you can recover the key after one hash.
+
+    I don't believe it. In fact, if you can break my hash function 100 times, I'll give you a flag!
+
+    I'll even be nice -- you get two whole guesses to find the key.
+
+  By oops (@oops on discord)
+author: oops
+type: dynamic
+value: 0
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc misc1.utctf.live 5000
+flags:
+  - utflag{Ju5t_u53_SHA256_LoLc4t5_9a114be7f}
+files:
+  - src/main.py
+state: hidden
